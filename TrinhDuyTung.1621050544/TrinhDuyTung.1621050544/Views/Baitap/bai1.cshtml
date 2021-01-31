@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "bai1";
+}
+
+<h2>bai1</h2>
+@using (Html.BeginForm())
+{
+    <label>Nhập a :</label>
+    <input type="text" name="HeSoa" />
+    <label>Nhập b :</label>
+    <input type="text" name="HeSob" />
+    <label>Nhập c :</label>
+    <input type="text" name="HeSoc" />
+    <input type="submit" value="Giải phương trình" />
+}
+@ViewBag.Ketqua
+@ViewBag.Value
+
+
+
